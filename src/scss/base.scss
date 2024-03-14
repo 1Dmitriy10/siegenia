@@ -1,0 +1,102 @@
+// =========================================Типографика=====================================================
+h1 {
+    color: var(--primary-black);
+    font-size: 80px;
+    font-weight: 500;
+    line-height: 100%; /* 80px */
+    margin-bottom: 40px;
+}
+h2 {
+    color: var(--primary-black);
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 115%; /* 46px */
+    letter-spacing: 0.8px;
+    margin-bottom: 40px;
+}
+h3 {
+    color: var(--primary-black);
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 110%; /* 38.5px */
+    margin-bottom: 34px;
+}
+h4 {
+    color: var(--primary-black);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 135%; /* 27px */
+    margin-bottom: 40px;
+}
+h5 {
+    color: var(--primary-black);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 150%; /* 24px */
+    margin-bottom: 40px;
+}
+p {
+    color: var(--primary-black);
+    /* T2 */
+    font-size: 16px;
+    font-weight: 350;
+    line-height: 135%; /* 21.6px */
+    margin-bottom: 20px;
+}
+a {
+    color: var(--primary-black);
+    /* T1 */
+    font-size: 18px;
+    font-weight: 350;
+    line-height: 150%; /* 27px */
+    margin-bottom: 20px;
+}
+.signature {
+    color: var(--primary-black);
+    /* подпись */
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 135%; /* 21.6px */
+}
+ol,
+ul {
+    margin-bottom: 40px;
+}
+ol {
+    counter-reset: counter;
+}
+li {
+    color: var(--primary-black);
+    font-size: 18px;
+    font-weight: 350;
+    line-height: 150%; /* 27px */
+    margin-bottom: 20px;
+}
+ul > li {
+    display: flex;
+    position: relative;
+    padding-left: 21px;
+}
+ul > li::before {
+    position: absolute;
+    content: "";
+    top: 10px;
+    left: 0;
+    width: 11px;
+    height: 11px;
+    border-radius: 100%;
+    background-color: var(--primary-blue);
+}
+ol > li {
+    display: flex;
+}
+ol > li::before {
+    content: "";
+    font-size: 18px;
+    font-weight: 350;
+    line-height: 150%; /* 27px */
+    color: var(--primary-blue);
+    counter-increment: counter;
+    content: counter(counter) ".";
+    padding-right: 14px;
+}

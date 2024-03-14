@@ -1,0 +1,21 @@
+.btn__marketing {
+    width: fit-content;
+    //
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 15px;
+    background: var(--primary-white);
+    color: var(--primary-black);
+    font-size: 18px;
+    font-weight: 350;
+    line-height: 135%; /* 24.3px */
+    align-self: start;
+    margin-bottom: 0;
+    transition: 0.3s;
+    &:hover {
+        transition: 0.3s;
+        background: var(--primary-blue);
+        color: var(--primary-white);
+    }
+}

@@ -1,0 +1,22 @@
+.btn__like-box {
+    display: flex;
+    gap: 10px;
+}
+.btn_like-icon {
+    transition: 0.3s;
+    &:hover {
+        transition: 0.3s;
+        fill: var(--secondary-dark-grey);
+    }
+    &.active {
+        transition: 0.3s;
+        fill: var(--primary-blue);
+    }
+}
+.btn-like-count {
+    color: var(--primary-black);
+    /* H4 */
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 135%; /* 27px */
+}

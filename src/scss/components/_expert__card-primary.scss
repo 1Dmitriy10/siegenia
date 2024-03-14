@@ -1,0 +1,40 @@
+.expert-card {
+    background: var(---, #fff);
+    /* тень карточек */
+    box-shadow: 5px 5px 40px 0px rgba(51, 51, 51, 0.1);
+    flex: 0 1 calc(50% - 20px);
+    min-width: 400px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    @media (max-width: 875px) {
+        flex: 1 1 100%;
+        min-width: auto;
+    }
+}
+.expert-card__personality-box {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+.expert-card__personality-img {
+    width: 80px;
+    height: 80px;
+}
+.expert-card__personality-text-box {
+    margin-top: auto;
+}
+.expert-card__personality-text-title {
+    margin-bottom: 0;
+}
+.expert-card__personality-text-subtitle {
+    margin-bottom: 0;
+}
+.expert-card__title {
+    margin-bottom: 28px;
+}
+.expert-card__link {
+    margin-top: auto;
+    margin-bottom: 0;
+    text-decoration-line: underline;
+}

@@ -1,0 +1,49 @@
+//третья карточка
+.blog-card_tertiary {
+    background: url("../img/blog/blog-card_tertiary-bg.png") 0 0 / cover no-repeat;
+    @media (max-width: 574.5px) {
+        background: url("../img/blog/blog-card_tertiary-bg.png") center / cover no-repeat;
+    }
+}
+.blog-card__title_tertiary {
+    color: var(--primary-dark-blue-card);
+}
+.blog-card__subtitle_tertiary {
+    color: var(--primary-dark-blue-card);
+    margin-bottom: 20px;
+}
+.blog-card__personality-box {
+    display: flex;
+    gap: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid var(--primary-dark-blue-card);
+}
+.blog-card__personality-img {
+    width: 60px;
+    height: 60px;
+}
+.blog-card__personality-text-box {
+    margin-top: 7px;
+    display: flex;
+    flex-direction: column;
+}
+.blog-card__personality-text-title {
+    color: var(--primary-dark-blue-card);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 150%; /* 21px */
+    margin-bottom: 0;
+}
+.blog-card__personality-text-subtitle {
+    color: var(--primary-dark-blue-card);
+    font-size: 12px;
+    font-weight: 350;
+    line-height: 135%; /* 16.2px */
+    margin-bottom: 0;
+}
+
+.blog-card__signature_tertiary {
+    color: var(--primary-dark-blue-card);
+    margin-top: auto;
+    margin-bottom: 0;
+}

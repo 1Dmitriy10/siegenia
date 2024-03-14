@@ -1,0 +1,73 @@
+//основные импорты
+@import "fonts";
+@import "reset";
+@import "root";
+@import "reset";
+@import "base";
+
+//========основные стили============
+body {
+    font-family: FedraSansPro, sans-serif;
+}
+.container {
+    max-width: 1160px;
+    margin: 0 auto;
+    padding: 60px 0;
+    // outline: 1px solid red;
+    @media (max-width: 992px) {
+        max-width: 960px;
+    }
+    @media (max-width: 768px) {
+        max-width: 720px;
+    }
+    @media (max-width: 576px) {
+        max-width: 300;
+    }
+}
+//обертка карточек блока
+.blog-card-box {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    @media (max-width: 1044px) {
+        gap: 30px;
+    }
+    @media (max-width: 657px) {
+        gap: 10px;
+    }
+}
+
+//обертка карточек эксперта
+.expert-card-box {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    @media (max-width: 1044px) {
+        gap: 30px;
+    }
+    @media (max-width: 657px) {
+        gap: 10px;
+    }
+}
+
+//==================================
+
+//Импорты блоков и компонентов
+@import "./components/footer";
+@import "./components/header";
+@import "./components/burgerMenu";
+@import "./components/pop-up";
+@import "./components/blog-card_primary";
+@import "./components/blog-card_secondary";
+@import "./components/blog-card_tertiary";
+@import "./components/expert__card-primary.scss";
+@import "./components/expert__card-secondary";
+@import "./components/btn__about-expert";
+@import "./components/btn__subscription";
+@import "./components/btn__marketing";
+@import "./components/btn__to-main";
+@import "./components/btn__more";
+@import "./components/btn__like";
+@import "./components/btn__up";
+@import "./components/link";
+@import "./components/subscription__box";

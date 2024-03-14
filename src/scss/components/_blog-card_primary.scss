@@ -1,0 +1,39 @@
+//первая карточка
+.blog-card {
+    flex: 0 1 calc(25% - 30px);
+    min-width: 260px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    min-height: 260px;
+    @media (max-width: 1178px) {
+        flex: 0 1 calc(33.6% - 30px);
+        min-height: 300px;
+    }
+    @media (max-width: 1044px) {
+        flex: 0 1 calc(33.6% - 23px);
+    }
+    @media (max-width: 886px) {
+        flex: 1 1 calc(33.6% - 30px);
+        min-height: 300px;
+    }
+}
+.blog-card__title {
+    color: var(--primary-white);
+    margin-bottom: 0;
+}
+.blog-card__subtitle {
+    color: var(--primary-white);
+}
+//primary
+.blog-card_primary {
+    background: url("../img/blog/blog-card_primary-bg.png") 0 0 / cover no-repeat;
+    @media (max-width: 574.5px) {
+        background: url("../img/blog/blog-card_primary-bg.png") center / cover no-repeat;
+    }
+}
+.blog-card__signature_primary {
+    color: var(--primary-white);
+    margin-top: auto;
+    margin-bottom: 0;
+}

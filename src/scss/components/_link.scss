@@ -1,0 +1,9 @@
+.link {
+    color: var(--secondary-dark-grey);
+    line-height: 150%; /* 27px */
+    text-decoration-line: underline;
+    margin-bottom: 0;
+    &:hover {
+        color: var(--primary-blue);
+    }
+}

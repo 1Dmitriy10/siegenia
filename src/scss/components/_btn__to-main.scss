@@ -1,0 +1,25 @@
+.btn__to-main {
+    width: fit-content;
+    //
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 40px;
+    background: var(--primary-blue);
+    color: var(--primary-white);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 120%; /* 19.2px */
+    align-self: start;
+    margin-bottom: 0;
+    transition: 0.3s;
+    &:hover {
+        transition: 0.3s;
+        background: var(--primary-dark-blue-card);
+        color: var(--primary-white);
+    }
+    &.disabled {
+        background: var(--secondary-grey);
+        pointer-events: none;
+    }
+}

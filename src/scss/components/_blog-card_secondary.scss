@@ -1,0 +1,12 @@
+//вторая карточка
+.blog-card_secondary {
+    background: url("../img/blog/blog-card_secondary-bg.png") 0 0 / cover no-repeat;
+    @media (max-width: 574.5px) {
+        background: url("../img/blog/blog-card_secondary-bg.png") center / cover no-repeat;
+    }
+}
+.blog-card__signature_secondary {
+    color: var(--primary-white);
+    margin-top: auto;
+    margin-bottom: 0;
+}
